@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Encrypted credentials",
+  "description": "Encrypted login credentials saver",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "./assets/logo192.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "assets/logo192.png",
+    "32": "assets/logo192.png",
+    "48": "assets/logo192.png",
+    "128": "assets/logo192.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "host_permissions": ["http://*/*", "https://*/*"]
+}

@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.popup {
+  padding: 10px 10px;
+  min-width: 200px;
+  min-height: 150px;
+}
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.input-wrap {
+  padding: 5px 0;
+}
+.button-wrap {
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  font-size: 20px;
+  padding: 5px 10px;
+  background-color: lightgray;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn-active {
+  background-color: rgb(45, 151, 244);
+  color: rgb(255, 255, 255);
+}
+.btn:hover {
+  transition: 0.2s ease-in;
+  background-color: rgb(22, 92, 153);
+  color: white;
+}
+.input-field {
+  font-size: 16px;
+  padding: 5px 10px;
+}
+.user-data {
+  list-style: none;
+  padding: 0 10px;
+  margin-bottom: 50px;
+}
+.data-element {
+  padding: 10px 10px;
+  margin-bottom: 30px;
+}
+.data-website {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.mask-div {
+  display: flex;
+  justify-content: space-between;
+  height: 16px;
+  gap: 5px;
+}
+.eye-icon {
+  max-width: 100%;
+}
+.empty {
+  margin-top: 20px;
+  text-align: center;
+}
+.logout {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.options-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.remove-btn {
+  font-size: 14px;
+  background: none;
+  border: 0;
+  color: rgb(45, 151, 244);
+  cursor: pointer;
+}
+.remove-btn:hover {
+  transition: 0.2s ease-in;
+  font-size: 15px;
+  color: rgb(22, 92, 153);
+}
+.options-menu {
+  min-height: 150px;
+}
+.options-div {
+  margin-bottom: 15px;
+}
+.options-save {
+  font-size: 14px;
+  position: absolute;
+  bottom: 60px;
+  left: 10px;
+  right: 10px;
+}
